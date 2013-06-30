@@ -1,2 +1,4 @@
-ids_sid_registry
-================
+snort_sid_registry
+==================
+
+SNORT sid registry
