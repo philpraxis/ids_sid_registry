@@ -22,3 +22,8 @@ A: It applies to both SNORT sid and Suricata sid,
 basically, any system which accept rules compatible with these
 systems.
 
+Q: Why store this in python file?
+A: So that it can be used easily in some tools which needs such data.
+That's true that quite a lot of SNORT tools is in PERL, but hey, 
+contribute, code some PERL that will treat the sid.py file as a data
+file to provide the same.
