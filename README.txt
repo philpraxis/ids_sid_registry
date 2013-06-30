@@ -1,7 +1,7 @@
-snort_sid_registry
-==================
+ids_sid_registry
+================
 
-SNORT sid registry
+IDS sid registry for Suricata, SNORT, and any other compatible IDS
 
 Q: How to add a new range for your private rules?
 A: Fork the repository on github: 
