@@ -37,7 +37,18 @@ sid_registry.append({
 "stop": 7000000,
 "description":"Berkeley SNS security custom rules",
 "contact":"security@berkeley.edu",
-"lookup":"http://XXX",
+"lookup":"",
+})
+
+# 7xx0000 - 7xx9999 prefixes are organization specific
+# pick-up the 2 digit code you want and attribute it to your organization
+# if you plan to be issueing quite a lot of rules
+sid_registry.append({
+"start":7010000,
+"stop": 7019999,
+"description":"TCERT (Telecom CERT) sid prefix",
+"contact":"contact@tcert.org",
+"lookup":"",
 })
 
 sid_registry.append({
@@ -48,6 +59,8 @@ sid_registry.append({
 "lookup":"http://saas.p1sec.com/vuln/sid/",
 })
 
+
+# # Duplicate this below and uncomment it to use it as a template for your range:
 
 # sid_registry.append({
 # "start":,
