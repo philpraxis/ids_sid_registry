@@ -15,7 +15,9 @@ Send us a pull request:
 	https://github.com/philpraxis/ids_sid_registry
 
 Q: Is this official?
-A: No, but this is so far the only registry I've found.
+A: No, but so far I've found no registry. 
+This one is open and collaborative. IANA style.
+Reserve your sid range, work in it with peace :)
 
 Q: What does it apply to?
 A: It applies to both SNORT sid and Suricata sid, 
@@ -29,7 +31,7 @@ contribute, code some PERL that will treat the sid.py file as a data
 file to provide the same.
 
 Q: Can i import this in my python script?
-A: Yes, just clone this repo within your code directory and add in your code
-
+A: Yes, just clone this repo within your code directory
+and add in your code or test the following:
 import ids_sid_registry
 print ids_sid_registry.sid.sid_registry
