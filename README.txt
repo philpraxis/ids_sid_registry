@@ -27,3 +27,9 @@ A: So that it can be used easily in some tools which needs such data.
 That's true that quite a lot of SNORT tools is in PERL, but hey, 
 contribute, code some PERL that will treat the sid.py file as a data
 file to provide the same.
+
+Q: Can i import this in my python script?
+A: Yes, just clone this repo within your code directory and add in your code
+
+import ids_sid_registry
+print ids_sid_registry.sid.sid_registry
